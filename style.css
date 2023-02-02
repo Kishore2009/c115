@@ -1,0 +1,29 @@
+body{
+
+    background-size: cover;
+}
+.btn-success:hover{
+    background-color: red;
+}
+canvas{
+animation-name:kishore;
+animation-duration: 3s;
+animation-iteration-count: infinite;
+}
+@keyframes kishore{
+    0%{box-shadow: 3px 3px 40px blue;}
+    25%{box-shadow: 3px 3px 40px darkorange;}
+    50%{box-shadow: 3px 3px 40px pink;}
+    75%{box-shadow: 3px 3px 40px darkgreen;}
+    100%{box-shadow: 3px 3px 40px aqua;}
+
+}
+h1{
+    animation-name:lion;
+    animation-duration: 3s;
+    animation-iteration-count: infinite; 
+}
+@keyframes lion{
+    from{font-size: 15px ;}
+    to{font-size: 35px;}
+}
